@@ -290,6 +290,14 @@ main {
   grid-gap: 2em;
 }
 
+.image {
+  transition: transform 1s linear;
+}
+
+.image:hover {
+  transform: rotate(360deg) translate(-70px,300px);
+}
+
 .project {
   padding: 2em;
   margin: 0 auto;
